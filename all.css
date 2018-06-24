@@ -1,0 +1,37 @@
+.btn-car{
+    background-color: transparent;
+    position: relative;
+}
+
+.btn-car .badge{
+    position: absolute;
+}
+
+.dropdown-menu-right{
+    right: 0;
+    left: auto;
+}
+
+.jumbotron-bg{
+    background-image: url(./bg.png);
+    background-size: cover;
+    background-position: center center;
+    min-height: 400px;
+}
+
+.bg-lighter{
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+.box-shadow{
+    box-shadow:0 3px 5px rgba(0, 0, 0, 0.16);
+    transition: all .3s;
+}
+
+.box-shadow:hover{
+    box-shadow:0 4px 20px rgba(0, 0, 0, 0.26);
+}
+
+.alert-rounded{
+ border-radius: 50px;
+}

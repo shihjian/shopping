@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="all.css">
+    <title>Island服飾</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light justify-content-between">
+        <a class="navbar-brand">Island服飾</a>
+    <div class="dropdown ml-auto mr-3">
+        <button class="btn btn-sm btn-car" data-toggle="dropdown" data-flip="false">
+                <i class="fas fa-cart-plus"></i>
+                <span class="badge badge-pill badge-danger">66</span>
+        </button>
+        <div class="dropdown-menu dropdown-menu-right">
+            <div class="px-4 py-3">
+
+                    <table class="table table-striped" style="min-width: 320px;">
+                            <thead>
+                                <p>選擇的商品</p>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">帥氣男裝</th>
+                                <td>1件</td>
+                                <td>390$</td>                               
+                              </tr>
+
+                              <tr>
+                                    <th scope="row">帥氣女裝</th>
+                                    <td>1件</td>
+                                    <td>490$</td>                               
+                                  </tr>
+                            </tbody>
+                          </table>
+                          <a href="" class="btn btn-primary btn-block">結帳</a>
+            </div>
+        </div>
+
+    </div>
+      </nav>
+      
+      <div class="container">
+          <h1 class="text-center mb-3 text-secondary">我要結帳</h1>
+          <div class="form-row text-center">
+              <div class="col-12 col-sm">
+                    <div class="alert alert-primary alert-rounded" role="alert">
+                            1.輸入訂單資料
+                          </div>
+              </div>
+              <div class="col-12 col-sm"">
+                    <div class="alert alert-light alert-rounded" role="alert">
+                            2.金流付款
+                          </div>
+              </div>
+              <div class="col-12 col-sm"">
+                    <div class="alert alert-light alert-rounded" role="alert">
+                            3.完成
+                          </div>
+              </div>
+          </div>
+
+          <div class="row justify-content-center mt-5" justify-content-center>
+              <div class="col-md-8">
+                    <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  顯示購物車細節<i class="fas fa-caret-down"></i>
+                                </button>
+                            </div>
+                        
+                          
+                          </div>
+                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                              
+                                <table class="table table-striped" style="min-width: 320px;">
+                                        <thead>
+                                            <p>選擇的商品</p>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <th scope="row">帥氣男裝</th>
+                                            <td>1件</td>
+                                            <td>390$</td>                               
+                                          </tr>
+            
+                                          <tr>
+                                                <th scope="row">帥氣女裝</th>
+                                                <td>1件</td>
+                                                <td>490$</td>                               
+                                              </tr>
+                                        </tbody>
+                                      </table>                              
+                            </div>
+
+                            <form>
+                                    <div class="form-row">
+                                      <div class="form-group col-md-6">
+                                        <label for="inputEmail4">Email</label>
+                                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                      </div>
+                                      <div class="form-group col-md-6">
+                                        <label for="inputPassword4">Password</label>
+                                        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                                      </div>
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="inputAddress">Address</label>
+                                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="inputAddress2">Address 2</label>
+                                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                    </div>
+                                    <div class="form-row">
+                                      <div class="form-group col-md-6">
+                                        <label for="inputCity">City</label>
+                                        <input type="text" class="form-control" id="inputCity">
+                                      </div>
+                                      <!-- <div class="form-group col-md">
+                                        <label for="inputState">State</label>
+                                        <select id="inputState" class="form-control">
+                                          <option selected>Choose...</option>
+                                          <option>...</option>
+                                        </select>
+                                      </div> -->
+                                      <div class="form-group col-md">
+                                        <label for="inputZip">Zip</label>
+                                        <input type="text" class="form-control" id="inputZip">
+                                      </div>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary">下一步</button>
+                                  </form>
+              </div>
+          </div>
+          
+      </div>
+      
+      <script>
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (function() {
+              'use strict';
+              window.addEventListener('load', function() {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                  form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                      event.preventDefault();
+                      event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                  }, false);
+                });
+              }, false);
+            })();
+            </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
